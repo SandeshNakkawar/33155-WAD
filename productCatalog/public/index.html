@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Catalog</title>
+  </head>
+  <body>
+    <h2>Product Catalog</h2>
+    <div class="product-grid" id="productGrid"></div>
+
+    <script>
+      fetch("/api/products")
+        .then((res) => res.json())
+        .then((products) => {
+          const grid = document.getElementById("productGrid");
+          products.forEach((product) => {
+            const card = document.createElement("div");
+            card.className = "product-card";
+            card.innerHTML = `
+                <img src="${product.image}" alt="${product.name}" />
+            <h3>${product.name}</h3>
+            <p>Rs.${product.price.toFixed(2)}</p>
+
+
+                `;
+            grid.appendChild(card);
+          });
+        })
+        .catch(err => console.error('Error loading products:', err));
+    </script>
+  </body>
+</html>

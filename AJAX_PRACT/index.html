@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Arial", sans-serif;
+      }
+      body {
+        background: linear-gradient(135deg, #00b4db, #0083b0);
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #container {
+        background: rgba(255, 255, 255, 0.9);
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        width: 90%;
+        max-width: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h2 style="text-align: centre">Weather App</h2>
+
+      <div id="searchContainer">
+        <input placeholder="Enter City Name..." type="text" id="cityInput" />
+        <button id="searchBtn">Search</button>
+      </div>
+
+      <div class="wearther-info" id="weatherInfo">
+        <div id="weatherCard">
+          <h2 id="cityName">-</h2>
+          <div id="weather-details">
+            <p>Temperature: <span id="temperature">-</span>°C</p>
+            <p>Humidity: <span id="humidity">-</span>%</p>
+            <p>Conditions: <span id="conditions">-</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

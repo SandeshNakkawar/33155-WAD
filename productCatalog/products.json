@@ -1,0 +1,33 @@
+[
+    {
+      "name": "Wireless Mouse",
+      "price": 700.00,
+      "image": "#"
+    },
+    {
+      "name": "Bluetooth Headphones",
+      "price": 1500,
+      "image": "#"
+    },
+    {
+      "name": "Mechanical Keyboard",
+      "price": 2500.00,
+      "image": "#"
+    },
+    {
+      "name": "Tshirt",
+      "price": 500.00,
+      "image": "#"
+    },
+    {
+      "name": "Skate Board",
+      "price": 700.00,
+      "image": "#"
+    },
+    {
+      "name": "Laptop",
+      "price": 70000.00,
+      "image": "#"
+    }
+  ]
+  

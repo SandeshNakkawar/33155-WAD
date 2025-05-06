@@ -1,0 +1,17 @@
+[
+    {
+      "name": "Ram Kumar",
+      "designation": "Software Engineer",
+      "department": "IT",
+      "salary": 60000,
+      "image": "#"
+    },
+    {
+      "name": "Smith Joshi",
+      "designation": "HR Manager",
+      "department": "HR",
+      "salary": 50000,
+      "image": "#"
+    }
+  ]
+  

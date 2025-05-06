@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Amit Patil",
+    "email": "amit@example.com",
+    "age": 20,
+    "profileImage": "#"
+  },
+  {
+    "id": 2,
+    "name": "Priya Mehta",
+    "email": "priya@example.com",
+    "age": 22,
+    "profileImage": "#"
+  },
+  {
+    "id": 3,
+    "name": "Rahul Chavhan",
+    "email": "rahul@example.com",
+    "age": 25,
+    "profileImage": "#"
+  },
+  {
+    "id": 4,
+    "name": "Raj Thakur",
+    "email": "raj@example.com",
+    "age": 21,
+    "profileImage": "#"
+  },
+  {
+    "id": 5,
+    "name": "Shubham Chandratre",
+    "email": "shubham@example.com",
+    "age": 21,
+    "profileImage": "#"
+  },
+  {
+    "id": 6,
+    "name": "Kunj Chandak",
+    "email": "kunj@example.com",
+    "age": 21,
+    "profileImage": "#"
+  },
+  {
+    "id":7,
+    "name":"Sandesh",
+    "email": "sandesh@gmail.com",
+    "age": 21,
+    "profileImage": "#"
+  }
+
+]
